@@ -1,0 +1,40 @@
+[10.13, 3/9/2022] heru kenang: <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Belajar javascript</title>
+</head>
+ 
+<body>
+    <script>
+        let jam = 9;
+
+        // OR
+        if (jam < 10 || jam > 18) {
+            console.log('  toko tutup.');
+        }
+
+        let jam1 = 12;
+        let libur = true;
+
+        // OR
+        if (jam1 < 10 || jam1 > 18 || libur) {
+            console.log('toko tutup yaa.'); // akhir minggu
+        }
+
+        // AND
+        let hour = 12;
+        let minute = 30;
+
+        if (hour == 12 && minute == 30) {
+            alert('The time is 12:30');
+        }
+
+        var a = 7; var b = 2;
+        document.write("<br>111 AND 10 = ", a & b)
+        document.write("<br>111 OR 10 = ", a | b)
+        document.write("<br>111 XOR 10 = ", a ^ b)
+    </script>
+</body>
+
+</html>
